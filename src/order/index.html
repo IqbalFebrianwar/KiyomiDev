@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='de'>
+<head>
+    <meta charset='UTF-16'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Mulish&display=swap" rel="stylesheet">
+    <title>About</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <p class="font-semibold">Kiyomi<span class="highlight">Dev</span></p>
+        </div>
+        <nav class="menu">
+            <a href="/src/index.html">Home</a>
+            <a href="/src/about/index.html">About</a>
+            <a href="/src/organisasi/index.html">Organization</a>
+            <a href="/src/order/index.html">Order</a>
+        </nav>
+        <div class="contact-button">
+            <a href='/src/contact/index.html'><Button>Contact</Button></a>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="content">
+            <div>
+                <h1>Order</h1>
+            </div>
+    </section>
+    <div class="container">
+        <div class="input-container">
+            <input placeholder="Email" class="input-field" type="text">
+            <label for="input-field" class="input-label">Email</label>
+            <span class="input-highlight"></span>
+        </div>
+        <div class="input-container">
+            <input placeholder="Nama" class="input-field" type="text">
+            <label for="input-field" class="input-label">Nama</label>
+            <span class="input-highlight"></span>
+        </div>
+        <div class="input-container">
+            <input placeholder="WhatsApp" class="input-field" type="text">
+            <label for="input-field" class="input-label">WhatsApp</label>
+            <span class="input-highlight"></span>
+        </div>
+        <div>
+            <details class="custom-select">
+            <summary class="radios">
+            <input type="radio" name="item" id="default" title="Pesanan Software" checked>
+            <input type="radio" name="item" id="item1" title="Web">
+            <input type="radio" name="item" id="item2" title="Aplikasi Mobile">
+            <input type="radio" name="item" id="item3" title="Aplikasi Dekstop">
+            </summary>
+            <ul id="ul" class="list">
+                <li id="li">
+                <label for="item1">Web</label>
+                <span></span>
+                </label>
+                </li>
+                <li id="li">
+                <label for="item2">Aplikasi Mobile</label>
+                </li>
+                <li id="li">
+                <label for="item3">Aplikasi Dekstop</label>
+                </li>
+                </ul>
+            </details>
+        </div>
+        <div class="input-container">
+            <input placeholder="Pesan" class="input-field" type="text">
+            <label for="input-field" class="input-label">Pesan</label>
+            <span class="input-highlight"></span>
+        </div>
+        <div class="pesan-button">
+            <a href='/src/contact/index.html'><Button>Kirim</Button></a>
+        </div>
+    </div>
+    <section class="footer">
+        <img class="background-image" src="/src/img/blur4.png" alt="">
+        <div class="content">
+            <div class="logofooter">
+                <p class="font-semibold">Kiyomi<span class="highlight">Dev</span></p>
+            </div>
+            <div>
+                <p>Copyright 2023</p>
+            </div>
+            <div class="ats">
+                <p>About</p>
+                <p>Teams of service</p>
+                <p>Contact</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
