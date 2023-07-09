@@ -57,8 +57,7 @@ body{
     color: #00f;
 }
 
-.navbar .contact-button {
-    display: flex;
+.contact-button {
     align-items: center;
     justify-content: center;
     padding: 0.5rem 1rem;
